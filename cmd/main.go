@@ -12,7 +12,7 @@ import (
 )
 
 //LogFile Name
-var logFilePath = "Log-" + time.Now().Format("01-02-2006") + ".txt"
+var logFilePath = "Log-" + time.Now().Format("01-02-2006") + ".log"
 
 //Routes Which Will Be Registered
 var routes = []models.Route{

@@ -1,4 +1,0 @@
-2020/10/12 21:40:36 INFO: Service Started
-2020/10/12 21:41:21 INFO: Service Started
-2020/10/12 22:29:39 INFO: Service Started
-2020/10/12 22:34:12 INFO: Service Started
