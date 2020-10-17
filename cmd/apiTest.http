@@ -1,0 +1,14 @@
+###
+
+GET http://localhost:10000/getUser
+
+###
+
+POST http://localhost:10000/login HTTP/1.1
+content-type: application/json
+Authorization: Bearer 123124512421
+
+{
+    "username": "test",
+    "password": "12345"
+}

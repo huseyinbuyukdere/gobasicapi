@@ -1,0 +1,48 @@
+2020/10/11 14:06:29 INFO: Started App
+2020/10/11 14:19:50 INFO: /getUser
+2020/10/11 14:20:03 INFO: /getUser
+2020/10/11 14:20:51 INFO: /getUser
+2020/10/11 14:44:39 INFO: /getUser
+2020/10/11 14:48:37 INFO: /getUser
+2020/10/11 14:49:12 INFO: /getUser
+2020/10/11 14:49:12 INFO: /getUser
+2020/10/11 15:05:48 INFO: /getUser
+2020/10/11 15:05:50 INFO: /getUser
+2020/10/11 15:14:12 INFO: /getUserGET
+2020/10/11 15:14:14 INFO: /getUserGET
+2020/10/11 15:14:16 INFO: /getUserGET
+2020/10/11 15:14:16 INFO: /getUserGET
+2020/10/11 15:14:16 INFO: /getUserGET
+2020/10/11 15:14:16 INFO: /getUserGET
+2020/10/11 15:14:17 INFO: /getUserGET
+2020/10/11 15:14:29 INFO: /getUserGET
+2020/10/11 15:14:29 INFO: /getUserGET
+2020/10/11 15:14:29 INFO: /getUserGET
+2020/10/11 15:14:55 INFO: /getUserGET
+2020/10/11 15:14:55 INFO: /getUserGET
+2020/10/11 15:14:55 INFO: /getUserGET
+2020/10/11 15:14:55 INFO: /getUserGET
+2020/10/11 15:15:24 INFO: /getUserGET
+2020/10/11 15:15:25 INFO: /getUserGET
+2020/10/11 15:15:25 INFO: /getUserGET
+2020/10/11 15:15:40 INFO: /getUserGET 
+2020/10/11 15:15:40 INFO: /getUserGET 
+2020/10/11 15:15:40 INFO: /getUserGET 
+2020/10/11 15:15:43 INFO: /getUserGET 
+2020/10/11 15:15:43 INFO: /getUserGET 
+2020/10/11 15:15:43 INFO: /getUserGET 
+2020/10/11 15:16:25 INFO: /getUser GET
+2020/10/11 15:16:25 INFO: /getUser GET
+2020/10/11 15:16:25 INFO: /getUser GET
+2020/10/11 15:16:26 INFO: /getUser GET
+2020/10/11 15:16:26 INFO: /getUser GET
+2020/10/11 20:02:19 ERROR: listen tcp: lookup tcp/✐: getaddrinfow: Belirtilen sınıf bulunamadı.
+2020/10/11 20:06:48 INFO: Service Started
+2020/10/11 20:38:13 INFO: Service Started
+2020/10/11 20:39:03 ERROR: Request body contains unknown field "name"
+2020/10/11 20:40:08 ERROR: Request body contains unknown field "username"
+2020/10/11 20:45:17 INFO: Service Started
+2020/10/11 20:49:10 INFO: Service Started
+2020/10/11 20:52:01 INFO: Service Started
+2020/10/11 20:52:41 ERROR: Request body contains unknown field "username"
+2020/10/11 20:53:39 INFO: Service Started
