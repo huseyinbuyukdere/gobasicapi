@@ -11,7 +11,7 @@ import (
 
 //TokenResponse is response of Login Api
 type TokenResponse struct {
-	Token string `json:"token"`
+	Token string `json:"access_token"`
 }
 
 //UserInfo holds user info
