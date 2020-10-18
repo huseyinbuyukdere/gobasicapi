@@ -16,7 +16,8 @@ var logFilePath = "Log-" + time.Now().Format("01-02-2006") + ".log"
 
 //Routes Which Will Be Registered
 var routes = []models.Route{
-	models.Route{HandlerFunction: api.Login, Path: "/login", MethodName: "POST", IsPublic: false},
+	models.Route{HandlerFunction: api.Login, Path: "/login", MethodName: "POST", IsPublic: true},
+	models.Route{HandlerFunction: api.VerifyTest, Path: "/verifyToken", MethodName: "POST", IsPublic: false},
 }
 
 func init() {

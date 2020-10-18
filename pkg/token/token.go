@@ -21,7 +21,6 @@ func CreateToken(dataMap map[string]string) (string, error) {
 		atClaims[key] = value
 	}
 
-	fmt.Printf(os.Getenv("ACCESS_SECRET"))
 	var timeout int
 	timeout, err = strconv.Atoi(os.Getenv("TOKEN_TIMEOUT"))
 	if err != nil {
