@@ -11,8 +11,8 @@ import (
 const noTokenMessage = "NT Bad Request"
 const invalidTokenMessage = "Unauthorized request"
 
-//AuthenticationMiddleware logs requests
-func AuthenticationMiddleware(next http.Handler) http.Handler {
+//AuthorizationMiddleware logs requests
+func AuthorizationMiddleware(next http.Handler) http.Handler {
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 
 		tokenString := token.ExtractToken(r)

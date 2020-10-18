@@ -17,7 +17,7 @@ func InitializeServer(routes []models.Route) {
 	mainRouter := mux.NewRouter().StrictSlash(true)
 	mainRouter.Use(middlewares.LoggingMiddleware)
 	// mwAuthorize and mwAuthenticate basically work the same
-	mw := []func(http.Handler) http.Handler{middlewares.AuthenticationMiddleware}
+	mw := []func(http.Handler) http.Handler{middlewares.AuthorizationMiddleware}
 
 	for _, router := range routes {
 
