@@ -9,8 +9,6 @@ You can add your api to pkg/api folder and register api to service in main.go fi
 
 If you want authorization by JWT you can set "IsPublic" flag as false but you need to modify login api for verify credentials. 
 
-It includes logging middleware. Logging middleware is logging all requests to log file which seperated by date.
-
 ```bash
 var routes = []models.Route{
 	models.Route{HandlerFunction: api.Login, Path: "/login", MethodName: "POST", IsPublic: true},
@@ -18,6 +16,7 @@ var routes = []models.Route{
 }
 ```
 
+It includes logging middleware. Logging middleware is logging all requests to log file which seperated by date.
 
 ## Run
 
